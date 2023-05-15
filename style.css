@@ -1,0 +1,507 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Oswald&display=swap');
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    resize: none;
+}
+
+:root {
+    --font_alegre: 'alegreya sans', cursive;
+    --font_osvaldo: 'oswald', sans-serif;
+    --marron: #7B7E69;
+    --branco_pastel: #F6EFE7;
+}
+
+.alinhamento {
+    width: 1440px;
+    /* padding: 0 auto; */
+
+}
+
+header {
+    background-color: var(--marron);
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.logo {
+    width: 220px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    padding: 0 55px;
+}
+
+.menu {
+    display: flex;
+    width: 600px;
+    list-style: none;
+    justify-content: space-between;
+
+}
+
+.menu a {
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: var(--font_alegre);
+    font-weight: 800;
+}
+
+.menu a:hover {
+    border-bottom: 2px solid var(--branco_pastel);
+    color: var(--branco_pastel);
+
+}
+
+main {
+    background-color: var(--branco_pastel);
+
+}
+
+h1 {
+    position: absolute;
+    left: -999em;
+    width: 1em;
+    overflow: hidden;
+}
+
+.quem_somos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 55px;
+
+
+}
+
+.primeira_foto {
+    width: 700px;
+    box-shadow: 10px 10px 40px 10px rgb(0, 0, 0, 0.4);
+    border-radius: 70px;
+
+}
+
+.sobre {
+    text-align: center;
+    width: 580px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+}
+.sobre_esg{
+    align-items: center;
+}
+
+.sobre_titulo {
+    font-family: var(--font_osvaldo);
+    font-size: 60px;  
+}
+
+.sobre_texto {
+    font-family: var(--font_alegre);
+    font-size: 25px;
+}
+
+.btn_esg {
+    background-color: var(--marron);
+    border-radius: 30px;
+    width: 250px;
+    height: 60px;
+    font-size: 25px;
+    box-shadow: 5px 5px 40px 5px rgb(0, 0, 0, 0.4);
+}
+
+.btn_esg a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: var(--font_osvaldo);
+    font-size: 80px;
+    color: var(--branco_pastel);
+    background-color: var(--marron);
+    padding: 100px;
+
+}
+
+span {
+    text-transform: uppercase;
+}
+
+.esg {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 55px;
+
+}
+
+.sobre_esg {
+    text-align: center;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.sobre_esg_titulo {
+    font-family: var(--font_osvaldo);
+    font-size: 60px;
+    align-self: center;
+
+
+}
+
+.sobre_esg_texto {
+    font-family: var(--font_alegre);
+    font-size: 30px;
+    align-self: center;
+
+}
+
+.esg img {
+    box-shadow: 10px 10px 40px 10px;
+    border-radius: 70px;
+    width: 20%;
+    width: 600px;
+
+}
+
+
+
+.formulario {
+    background-color: var(--marron);
+    padding: 100px 0;
+
+}
+
+.formulario_titulo {
+    font-family: var(--font_osvaldo);
+    font-size: 60px;
+    color: var(--branco_pastel);
+    text-align: center;
+    margin: 15px;
+
+}
+
+form {
+    color: white;
+    font-family: var(--font_alegre);
+    display: flex;
+    gap: 35px;
+    flex-direction: column;
+
+}
+
+form>div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    max-width: 700px;
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+label {
+    font-size: 25px;
+
+}
+
+input {
+    height: 35px;
+    padding: 20px;
+}
+
+textarea {
+    padding: 20px;
+}
+
+.borda {
+    border: 1px solid var(--branco_pastel);
+    border-radius: 15px;
+
+}
+
+.btn_forms {
+    background-color: white;
+    border-radius: 30px;
+    width: 200px;
+    height: 60px;
+    font-size: 25px;
+    color: var(--marron);
+    margin: 0 auto;
+}
+
+.mapa {
+    width: 580px;
+
+}
+
+.contato {
+    padding: 100px 0;
+
+}
+
+.contato_titulo {
+    font-family: var(--font_osvaldo);
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.conteudo_contato {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.borda_mapa {
+    border: 5px solid var(--marron);
+    width: 700px;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.contato_info {
+    font-family: var(--font_alegre);
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.info {
+    display: flex;
+    align-items: center;
+}
+
+.info>i {
+    margin-right: 20px;
+    color: var(--marron);
+}
+
+footer {
+    background-color: var(--marron);
+    color: white;
+    font-family: var(--font_alegre);
+    font-size: 19px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width:1440px) {
+    .alinhamento {
+        width: 100%
+    }
+
+    nav {
+        padding: 0 50px;
+    }
+
+    .sobre {
+        max-width: 500px;
+    }
+
+    .quem_somos {
+        padding: 100px 50px;
+    }
+
+    .imgs {
+        flex-wrap: wrap;
+    }
+
+    .sobre_esg_texto {
+        font-size: 26px;
+
+    }
+
+    .esg img {
+        
+        border-radius: 70px;
+        width: 20%;
+        width: 600px;
+    
+    }
+
+    .esg {
+        padding: 100px 50px;
+    }
+
+}
+
+@media screen and (max-width:1200px) {
+
+    .alinhamento {
+        width: 100%;
+    }
+
+    .primeira_foto {
+        width: 550px
+    }
+
+    .esg img {
+        border-radius: 70px;
+        width: 20%;
+        width: 600px;
+    
+    }
+
+    .imgs {
+        flex-wrap: wrap;
+    }
+
+    .sobre_esg {
+        width: 480px;
+        align-self: center;
+    }
+
+    .sobre_esg_texto {
+        font-size: 30px;
+        align-self: center;
+    }
+}
+
+@media screen and (max-width:900px) {
+
+    .quem_somos {
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
+    .sobre {
+        margin-top: 30px;
+    }
+
+    .imgs {
+        gap: 50px;
+    }
+
+    .data {
+        font-size: 85px;
+    }
+
+    .esg {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .sobre_esg {
+        width: 600px;
+    }
+
+    .conteudo_contato {
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    #burguer {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    #burguer {
+        display: block;
+        color: var(--white);
+        font-size: 55px;
+        padding-right: 50px;
+    }
+
+    #itens {
+        position: absolute;
+        height: 92vh;
+        width: 50vw;
+        top: 15vh;
+        right: 0;
+        background-color: var(--marron);
+        flex-direction: column;
+        align-items: center;
+        gap: 70px;
+    }
+
+    .menu li {
+        padding: 50px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .data {
+        font-size: 70px;
+    }
+    
+}
+
+@media screen and (max-width:580px) {
+    .primeira_foto {
+        width: 450px;
+    }
+
+    .data {
+        font-size: 45px;
+    }
+
+    .esg img {
+        width: 70%;
+    }
+
+    .sobre_esg_texto {
+        padding: 0 40px;
+    }
+
+    .mapa {
+        width: 400px;
+    }
+
+    .borda_mapa {
+        width: 480px;
+    }
+
+    .conteudo_contato {
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .sobre_esg {
+        width: 100%;
+    }
+
+
+}
